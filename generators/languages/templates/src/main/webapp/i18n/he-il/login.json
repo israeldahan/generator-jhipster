@@ -1,0 +1,19 @@
+{
+    "login": {
+        "title": "התחברות",
+        "form": {
+            "password": "סיסמא",
+            "password.placeholder": "הסיסמא שלך",
+            "rememberme": "זכור אותי",
+            "button": "התחבר"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>התחברותך נכשלה!</strong> בבקשה בדוק את סיסמתך והתחבר שוב."
+            }
+        },
+        "password": {
+            "forgot": "שכחת סיסמא?"
+        }
+    }
+}

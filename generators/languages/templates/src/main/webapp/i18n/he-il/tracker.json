@@ -1,0 +1,12 @@
+{
+    "tracker": {
+        "title": "פעילות המשתמש בזמן אמת",
+        "table": {
+            "userlogin": "משתמש",
+            "ipaddress": "כתובת IP",
+            "userAgent": "User agent",
+            "page": "הדף הנוכחי",
+            "time": "זמן"
+        }
+    }
+}

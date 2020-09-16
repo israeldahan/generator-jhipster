@@ -180,6 +180,14 @@ const LANGUAGES = [
         localeId: 'ar-LY',
     },
     {
+        name: 'Hebrew (Israel)',
+        dispName: 'עברית',
+        value: 'he-il',
+        rtl: true,
+        skipForLocale: true,
+        localeId: 'he-IL',
+    },
+    {
         name: 'Armenian',
         dispName: 'Հայերեն',
         value: 'hy',

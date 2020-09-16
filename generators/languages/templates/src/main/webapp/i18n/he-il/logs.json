@@ -1,0 +1,11 @@
+{
+    "logs": {
+        "title": "לוגים",
+        "nbloggers": "קיימים {{ total }} לוגים.",
+        "filter": "סינון",
+        "table": {
+            "name": "שם",
+            "level": "רמה"
+        }
+    }
+}

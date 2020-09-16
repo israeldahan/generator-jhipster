@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "סשנים פתוחים עבור [<strong>{{username}}</strong>]",
+        "table": {
+            "ipaddress": "כתובת IP",
+            "useragent": "User Agent",
+            "date": "תאריך",
+            "button": "הפסק פעילות"
+        },
+        "messages": {
+            "success": "<strong>סשן לא תקף!</strong>",
+            "error": "<strong>שגיאה עקב!</strong> סשן לא תקף."
+        }
+    }
+}

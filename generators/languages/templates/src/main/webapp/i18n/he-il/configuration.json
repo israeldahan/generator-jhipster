@@ -1,0 +1,10 @@
+{
+    "configuration": {
+        "title": "הגדרות",
+        "filter": "סנן (by prefix)",
+        "table": {
+            "prefix": "קידומת",
+            "properties": "הגדרות"
+        }
+    }
+}

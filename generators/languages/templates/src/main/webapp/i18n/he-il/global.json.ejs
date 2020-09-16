@@ -1,0 +1,160 @@
+<%#
+ Copyright 2013-2020 the original author or authors from the JHipster project.
+
+ This file is part of the JHipster project, see https://www.jhipster.tech/
+ for more information.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-%>
+{
+    "global": {
+        "title": "<%= capitalizedBaseName %>",
+        "browsehappy": "הנך משתמש בדפדפן <strong>לא נתמך</strong>. בבקשה <a href=\"http://browsehappy.com/?locale=en\">עדכן את הדפדפן</a> כדי לשפר את החוויה.",
+        "menu": {
+            "home": "בית",
+            "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+            "entities": {
+                "main": "Entities",
+                "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+            },
+            "account": {
+                "main": "חשבון",
+                "settings": "הגדרות",
+                "password": "סיסמא",
+                "sessions": "Sessions",
+                "login": "התחבר",
+                "logout": "התנתק",
+                "register": "הרשם"
+            },
+            "admin": {
+                "main": "ניהול",
+                <%_ if (applicationType === 'gateway') { _%>
+                "gateway": "Gateway",
+                <%_ } _%>
+                "userManagement": "User management",
+                "tracker": "User tracker",
+                "metrics": "Metrics",
+                "health": "Health",
+                "configuration": "הגדרות",
+                "logs": "לוגים",
+                "apidocs": "API",
+                "database": "מסד נתונים",
+                "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+            },
+            "language": "שפה"
+        },
+        "form": {
+            "username.label": "שם משתמש",
+            "username.placeholder": "שם המשתמש שלך",
+            "currentpassword.label": "הסיסמא הנוכחית",
+            "currentpassword.placeholder": "הסיסמא הנוכחית",
+            "newpassword.label": "סיסמא חדשה",
+            "newpassword.placeholder": "סיסמא חדשה",
+            "confirmpassword.label": "אישור סיסמא חדשה",
+            "confirmpassword.placeholder": "אשר סיסמא חדשה",
+            "email.label": "דואר אלקטרוני",
+            "email.placeholder": "הדואר האלקטרוני שלך"
+        },
+        "messages": {
+            "info": {
+                "authenticated": {
+                    "prefix": "אם אתה רוצה ",
+                    "link": "להתחבר",
+                    "suffix": ", הינך יכול לנסות להתחבר על ידי חשבון ברירת מחדל:<br/>- מנהל  (שם משתמש=\"admin\" וסיסמא =\"admin\") <br/>- משתמש רגיל (שם משתמש=\"user\" וסיסמא=\"user\")."
+                },
+                "register": {
+                    "noaccount": "לא פתחת חשבון עדיין?",
+                    "link": "הרשם עם חשבון חדש"
+                }
+            },
+            "error": {
+                "dontmatch": "שם המשתמש והסיסמא אינם תואמים!"
+            },
+            "validate": {
+                "newpassword": {
+                    "required": "נדרשת סיסמא.",
+                    "minlength": "הסיסמא חייבת להכיל לפחות 4 תווים.",
+                    "maxlength": "הסיסמא אינה יכולה להכיל יותר מ-50 תווים.",
+                    "strength": "חוזק הסיסמא:"
+                },
+                "confirmpassword": {
+                    "required": "נדרש אישור סיסמא.",
+                    "minlength": "הסיסמא החדשה חייבת להכיל לפחות 4 תווים.",
+                    "maxlength": "הסיסמא החדשה אינה יכולה להכיל יותר מ-50 תווים."
+                },
+                "email": {
+                    "required": "האימייל נדרש.",
+                    "invalid": "האימייל אינו תקין.",
+                    "minlength": "אימייל חייב להכיל לפחות 5 תווים.",
+                    "maxlength": "אימייל אינו יכול להיות גדול מעל 50 תווים."
+                }
+            }
+        },
+        "field": {
+            "id": "ID"
+        },
+        "ribbon": {
+            "dev": "פיתוח"
+        },
+        "item-count": "מ {{first}} - {{second}} מתוך {{total}} פריטים."
+    },
+    "entity": {
+        "action": {
+            "addblob": "Add blob",
+            "addimage": "הוסף תמונה",
+            "back": "חזור",
+            "cancel": "בטל",
+            "delete": "מחק",
+            "edit": "ערוך",
+            "open": "פתח",
+            "save": "שמור",
+            "view": "הצג"
+        },
+        "detail": {
+            "field": "שדה",
+            "value": "ערך"
+        },
+        "delete": {
+            "title": "אישור פעולת מחיקה"
+        },
+        "validation": {
+            "required": "שדה נדרש.",
+            "minlength": "שדה זה נדרש עם לפחות {{ min }} תווים.",
+            "maxlength": "שדה זה אינו יכול להכיל {{ max }} תווים.",
+            "min": "This field should be at least {{ min }}.",
+            "max": "This field cannot be more than {{ max }}.",
+            "minbytes": "This field should be at least {{ min }} bytes.",
+            "maxbytes": "This field cannot be more than {{ max }} bytes.",
+            "pattern": "This field should follow pattern for {{ pattern }}.",
+            "number": "שדה זה צריך להכיל מספר.",
+            "datetimelocal": "שדה זה צריך להכיל תאריך או זמן.",
+            "patternLogin": "שדה זה חייב להכיל תווים, ספרות או כתובת דואר אלקטרוני."
+        }
+    },
+    "error": {
+        "internalServerError": "שגיאת שרת פנימית",
+        "server.not.reachable": "שרת אינו זמין",
+        "url.not.found": "לא נמצא",
+        "NotNull": "שדה  {{ fieldName }} אינו יכול להיות ריק!",
+        "Size": "Field {{ fieldName }} does not meet min/max size requirements!",
+        "userexists": "שם משתמש זה כבר קיים!",
+        "emailexists": "דואר אלקטרוני כבר בשימוש!",
+        "idexists": "A new {{ entityName }} cannot already have an ID",
+        "idnull": "Invalid ID",
+        "file": {
+            "could.not.extract": "Could not extract file",
+            "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
+        }
+    },
+    "footer": "כאן זה הפוטר"
+}

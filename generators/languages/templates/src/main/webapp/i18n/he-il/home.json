@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "ברוך הבא, אל Java Hipster!",
+        "subtitle": "זה דף הבית שלך",
+        "logged": {
+            "message": "הנך מחובר עם שם המשתמש \"{{username}}\"."
+        },
+        "question": "האם יש לך שאלות על JHipster:",
+        "link": {
+            "homepage": "JHipster homepage",
+            "stackoverflow": "JHipster on Stack Overflow",
+            "bugtracker": "JHipster bug tracker",
+            "chat": "JHipster public chat room",
+            "follow": "עקבו @jhipster ב Twitter"
+        },
+        "like": "אם אהבת את Jhipster, אל תשכח לדרג אותנו בכוכבים בגיטהאב",
+        "github": "GitHub"
+    }
+}

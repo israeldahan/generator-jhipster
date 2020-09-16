@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "title": "הגדרות משתמש של [<strong>{{username}}</strong>]",
+        "form": {
+            "firstname": "שם פרטי",
+            "firstname.placeholder": "השם הפרטי שלך",
+            "lastname": "שם משפחה",
+            "lastname.placeholder": "שם המשפחה שלך",
+            "language": "שפה",
+            "button": "שמור"
+        },
+        "messages": {
+            "error": {
+                "fail": "<strong>עקב שגיאה!</strong> ההגדרות לא נשמרו.",
+                "emailexists": "<strong>דואר אלקטרוני בשימוש!</strong> אנא בחר דואר אלקטרוני אחר."
+            },
+            "success": "<strong>ההגדרות נשמרו!</strong>",
+            "validate": {
+                "firstname": {
+                    "required": "נדרש להזין שם פרטי.",
+                    "minlength": "נדרש שם פרטי באורך של לפחות תו אחד",
+                    "maxlength": "השם הפרטי אינו יכול להיות ארוך מ 50 תווים"
+                },
+                "lastname": {
+                    "required": "נדרש להזין שם משפחה.",
+                    "minlength": "נדרש שם משפחה באורך של לפחות תו אחד",
+                    "maxlength": "שם המשפחה אינו יכול להיות ארוך מ 50 תווים"
+                }
+            }
+        }
+    }
+}
